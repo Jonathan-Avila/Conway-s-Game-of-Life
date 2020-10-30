@@ -114,7 +114,7 @@ public class JonathansGameOfLife {
                      if (nodes[i].isItAlive()==true){
                       if( neighbors < 2 && neighbors > 3  ){
                            nodes[i].changeLifeCondition();
-                           nodes[i].changeColor();
+                           nodes[i].changeColor(); 
                            
                       }  
                      }
